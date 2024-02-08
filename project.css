@@ -26,3 +26,11 @@
       li a:hover {
         background-color: olive;
       }
+
+      .h1 {font-family: 'Protest Riot', sans-serif;
+           font-size: 55px;
+           font-weight: 600;
+           padding-top: 5%;
+           padding-right: 50%;
+           margin-left: 10%;
+           color: black; }
