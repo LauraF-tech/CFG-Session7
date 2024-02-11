@@ -27,10 +27,42 @@
         background-color: olive;
       }
 
-      .h1 {font-family: 'Protest Riot', sans-serif;
-           font-size: 55px;
-           font-weight: 600;
-           padding-top: 5%;
-           padding-right: 50%;
-           margin-left: 10%;
-           color: black; }
+  .container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 45px;
+    padding: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #7BA63C;
+    width: 100%;
+  }
+
+.btn {
+  background-color: #373737;
+  color: white;
+  font-size: 16px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: olive;
+  color: white;
+}
+
+img {
+  border-radius: 100px 0px 100px 0px;
+  border: #373737 2px solid;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 14px;
+}
