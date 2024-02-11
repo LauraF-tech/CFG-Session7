@@ -56,13 +56,65 @@
 img {
   border-radius: 100px 0px 100px 0px;
   border: #373737 2px solid;
+  margin: 0px 10px 20px 10px;
 }
-
 h1 {
   font-size: 40px;
   font-weight: 900;
 }
-
 p {
   font-size: 14px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+  color: white;
+}
+label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+h3 {
+  text-align: center;
+  color: white;
+}
+.button {
+  background-color: #373737;
+  color: white;
+  font-size: 14px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.button:hover {
+  background-color: olive;
+  color: white;
+}
+.signUp {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: darkolivegreen;
+  width: 100%;
+  padding: 20px;
+}
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  padding: 90px 0px 0px;
+  text-align: center;
+}
+.thankYou {
+  background-color: darkolivegreen;
+  width: 100%;
+  text-align: center;
+}
+h4 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
 }
